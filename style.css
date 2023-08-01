@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster',cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.main{
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    
+}
+.title{
+    margin: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+.col{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    height: 40px;
+    width: 70%;
+    font-size: 35px;
+    display: block;
+    text-align: center;
+}
